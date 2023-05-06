@@ -6,7 +6,6 @@ import csv, xlrd
 browser = webdriver.Firefox()
 browser.get("https://www.kinopoisk.ru/lists/movies/top250/")
 html = browser.page_source
-html = browser.page_source
 browser.close()
 
 
